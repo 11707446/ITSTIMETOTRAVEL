@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.home.delete">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/chooseimg"
+            android:background="@drawable/ic_photo_camera_black_24dp"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/chooseimg"
+            android:id="@+id/ediname"
+            android:hint="NAME"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/bc_color_profile"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/ediname"
+            android:id="@+id/ediphone"
+            android:textAlignment="center"
+            android:hint="MOBILE NUMBER"
+            android:background="@drawable/bc_color_profile"
+
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/ediphone"
+            android:id="@+id/ediemail"
+            android:hint="GMAIL"
+            android:background="@drawable/bc_color_profile"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/ediemail"
+            android:id="@+id/ediaddress"
+            android:hint="ADDRESS"
+            android:background="@drawable/bc_color_profile"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/ediaddress"
+            android:text="REGISTER"
+            android:textSize="20dp"
+            android:id="@+id/registerappbuttn"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bc_color_profile"
+            android:layout_marginLeft="45dp"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "891886462669",
+    "firebase_url": "https://its-time-to-travel.firebaseio.com",
+    "project_id": "its-time-to-travel",
+    "storage_bucket": "its-time-to-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891886462669:android:df8becde728762226aeb84",
+        "android_client_info": {
+          "package_name": "com.example.itstimetotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891886462669-quf8kclmf02hehb7s61c9781j8gc4id9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itstimetotravel",
+            "certificate_hash": "83ae57e6200db64c9cc9e7b778ca245773e45cd8"
+          }
+        },
+        {
+          "client_id": "891886462669-aqvqp04q2c7be8oet8btphj3tdi289i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOgAsQ5j88uNBqJgcKrjHGm5NXMGJkDrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891886462669-aqvqp04q2c7be8oet8btphj3tdi289i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
