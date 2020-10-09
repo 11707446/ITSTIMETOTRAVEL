@@ -11,7 +11,7 @@ public class SlideshowViewModel extends ViewModel {
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("It is a touristic app designed and developed by:\n" +
-                "KONDEPUDI SAI GANESH SWMAY");
+                "KONDEPUDI SAI GANESH SWAMY");
     }
 
     public LiveData<String> getText() {
